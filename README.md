@@ -36,4 +36,6 @@ A modern, responsive portfolio showcasing my resume, built using React and style
 
 ## 📸 Screenshots
 
+![Screenshot page](/src/assets/screenshot.png "Screenshot full page")
+
 Published: 2025
