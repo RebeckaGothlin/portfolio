@@ -4,7 +4,7 @@ import { Fade, Slide } from "react-awesome-reveal";
 import { Button } from "../Button";
 import { HeroTexts } from "../data/DataLists";
 import ColorSplashLeft from "../../assets/color-splash-left.png";
-import ColorSplashRight from "../../assets/color-splash-right.png";
+import ColorSplashRight from "../../assets/color-splash-Right.png";
 import { Image } from "../Image";
 import "./heroSection.css";
 
