@@ -2,6 +2,7 @@
 
 ## 📄 About The Project
 
+A modern, responsive portfolio showcasing my resume, built using React and styled with Tailwind CSS. This project highlights my skills, experiences, and projects in a sleek and interactive design.
 
 ---
 
