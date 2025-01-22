@@ -50,7 +50,7 @@ const ProjectsSection = () => {
     {
       id: 1,
       src: "/ecotrip.png",
-      alt: "Bild 1",
+      alt: "EcoTrip",
       title: "EcoTrip",
       description: "An app for planning trips sustainably.",
       githubLink:
@@ -60,7 +60,7 @@ const ProjectsSection = () => {
     {
       id: 2,
       src: "/API-notes.png",
-      alt: "Bild 2",
+      alt: "API notes",
       title: "API notes",
       description: "A document system where you can create blog posts.",
       githubLink: "https://github.com/RebeckaGothlin/API-notes",
@@ -69,7 +69,7 @@ const ProjectsSection = () => {
     {
       id: 3,
       src: "/the-zoo.png",
-      alt: "Bild 3",
+      alt: "The Zoo",
       title: "The Zoo",
       description: "An interactive and fun animal feeding simulation.",
       githubLink: "https://github.com/RebeckaGothlin/react-thezoo",
@@ -78,7 +78,7 @@ const ProjectsSection = () => {
     {
       id: 4,
       src: "/tic-tac-toe.png",
-      alt: "Bild 4",
+      alt: "Tic Tac Toe",
       title: "Tic Tac Toe",
       description: "A game app - play Tic Tac Toe!",
       githubLink: "https://github.com/RebeckaGothlin/vue-tic-tac-toe",
@@ -87,7 +87,7 @@ const ProjectsSection = () => {
     {
       id: 5,
       src: "/quiz.png",
-      alt: "Bild 5",
+      alt: "Quiz",
       title: "Quiz",
       description: "A quiz where you answer tricky questions.",
       githubLink: "https://github.com/RebeckaGothlin/quiz-typescript-js",
@@ -96,7 +96,7 @@ const ProjectsSection = () => {
     {
       id: 6,
       src: "/webshop-js.png",
-      alt: "Bild 6",
+      alt: "Webshop",
       title: "Webshop",
       description: "A webshop where you can shop sweets.",
       githubLink: "https://github.com/RebeckaGothlin/webshop-javascript",
@@ -106,7 +106,7 @@ const ProjectsSection = () => {
     {
       id: 7,
       src: "/toughcookie.jpg",
-      alt: "Bild 7",
+      alt: "Tough Cookie",
       title: "Tough Cookie",
       description: "A design made using SCSS and html.",
       githubLink:
@@ -116,7 +116,7 @@ const ProjectsSection = () => {
     {
       id: 8,
       src: "/af-group.png",
-      alt: "Image of JobbNavigator Start Page",
+      alt: "Image of Arbetsportalen Start Page",
       title: "Arbetsportalen",
       description:
         "A job search tool that helps users find relevant job postings.",
