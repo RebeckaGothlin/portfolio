@@ -8,7 +8,7 @@ A modern, responsive portfolio showcasing my resume, built using React and style
 
 ## 🔗 Link to the Project
 
-
+https://portfolio-rebeckagothlin.vercel.app/
 
 ---
 
