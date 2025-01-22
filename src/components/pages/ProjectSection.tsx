@@ -49,7 +49,7 @@ const ProjectsSection = () => {
   const images = [
     {
       id: 1,
-      src: "public/ecotrip.png",
+      src: "/ecotrip.png",
       alt: "Bild 1",
       title: "EcoTrip",
       description: "An app for planning trips sustainably.",
@@ -59,7 +59,7 @@ const ProjectsSection = () => {
     },
     {
       id: 2,
-      src: "public/API-notes.png",
+      src: "/API-notes.png",
       alt: "Bild 2",
       title: "API notes",
       description: "A document system where you can create blog posts.",
@@ -68,7 +68,7 @@ const ProjectsSection = () => {
     },
     {
       id: 3,
-      src: "public/the-zoo.png",
+      src: "/the-zoo.png",
       alt: "Bild 3",
       title: "The Zoo",
       description: "An interactive and fun animal feeding simulation.",
@@ -77,7 +77,7 @@ const ProjectsSection = () => {
     },
     {
       id: 4,
-      src: "public/tic-tac-toe.png",
+      src: "/tic-tac-toe.png",
       alt: "Bild 4",
       title: "Tic Tac Toe",
       description: "A game app - play Tic Tac Toe!",
@@ -86,7 +86,7 @@ const ProjectsSection = () => {
     },
     {
       id: 5,
-      src: "public/quiz.png",
+      src: "/quiz.png",
       alt: "Bild 5",
       title: "Quiz",
       description: "A quiz where you answer tricky questions.",
@@ -95,7 +95,7 @@ const ProjectsSection = () => {
     },
     {
       id: 6,
-      src: "public/webshop-js.png",
+      src: "/webshop-js.png",
       alt: "Bild 6",
       title: "Webshop",
       description: "A webshop where you can shop sweets.",
@@ -105,7 +105,7 @@ const ProjectsSection = () => {
     },
     {
       id: 7,
-      src: "public/toughcookie.jpg",
+      src: "/toughcookie.jpg",
       alt: "Bild 7",
       title: "Tough Cookie",
       description: "A design made using SCSS and html.",
@@ -115,7 +115,7 @@ const ProjectsSection = () => {
     },
     {
       id: 8,
-      src: "public/af-group.png",
+      src: "/af-group.png",
       alt: "Image of JobbNavigator Start Page",
       title: "Arbetsportalen",
       description:
@@ -125,7 +125,7 @@ const ProjectsSection = () => {
     },
     {
       id: 9,
-      src: "public/wwf-prototype.png",
+      src: "/wwf-prototype.png",
       alt: "Image of WWF prototype Wireframe Start Page",
       title: "WWF Prototype (Figma)",
       description: "A Figma wireframe prototype for a WWF campaign.",
