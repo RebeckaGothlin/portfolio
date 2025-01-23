@@ -115,7 +115,7 @@ const ProjectsSection = () => {
     },
     {
       id: 8,
-      src: "/af-group.png",
+      src: "/af.png",
       alt: "Image of Arbetsportalen Start Page",
       title: "Arbetsportalen",
       description:
