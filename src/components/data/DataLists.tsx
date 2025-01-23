@@ -1,6 +1,6 @@
 export const HeroTexts = [
     {
-      firstText: "Frontend Development with a Passion for Graphic Design",
+      firstText: "Dynamic Frontend Solutions with an Eye for Aesthetics",
       bigText: "A Frontend Developer with a Passion for Graphic Design",
       secondText1: "Explore my work as a frontend ",
       secondText2: "developer, blending coding expertise ",
