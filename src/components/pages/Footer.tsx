@@ -44,7 +44,7 @@ const Footer = () => {
           <div className="w-full md:w-2/3 text-center md:text-left mb-0 pb-0 contact-text">
             <p className="text-sm md:text-base text-gray-800 leading-relaxed text-center font-medium">
               I’d love to hear from you! If you’re looking for a passionate
-              graphic designer with a strong technical background, let’s
+              frontend developer with a strong passion for design, let’s
               connect. I’m excited to discuss how I can contribute to your team
               and bring your ideas to life.
             </p>
@@ -57,35 +57,38 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex justify-center gap-6 mt-0 pt-0">
-            <a
-              href="https://github.com/RebeckaGothlin"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-full p-3 mt-[-2.5px] pt-0 hover:scale-110 transition duration-300"
-            >
-              <GithubLogo size={85}
+          <a
+            href="https://github.com/RebeckaGothlin"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-full p-3 mt-[-2.5px] pt-0 hover:scale-110 transition duration-300"
+          >
+            <GithubLogo
+              size={85}
               color="currentColor"
               weight="fill"
               className="mb-10 pb-3"
-               />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/rebecka-g%C3%B6thlin-963037280/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className=" rounded-full p-3 mt-0 pt-0 hover:scale-110 transition duration-300"
-            >
-              <LinkedinLogo 
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/rebecka-g%C3%B6thlin-963037280/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className=" rounded-full p-3 mt-0 pt-0 hover:scale-110 transition duration-300"
+          >
+            <LinkedinLogo
               color="currentColor"
               weight="fill"
               size={85}
               className="mb-10 pb-3"
-               />
-            </a>
-          </div>
-          <div>
-            <p className="mb-2 text-sm">© 2025 Rebecka Göthlin. All rights reserved.</p>
-          </div>
+            />
+          </a>
+        </div>
+        <div>
+          <p className="mb-2 text-sm">
+            © 2025 Rebecka Göthlin. All rights reserved.
+          </p>
+        </div>
       </section>
     </footer>
   );
