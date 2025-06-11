@@ -59,6 +59,25 @@ const ProjectsSection = () => {
     },
     {
       id: 2,
+      src: "/ambassador-figma.png",
+      alt: "Image of figma design of the Ambassadors page",
+      title: "Figma design",
+      description: "A Figma wireframe for Ambassadors page",
+      githubLink: "",
+      deployLink:
+        "https://www.figma.com/proto/08cDJa5lX23ZBA1B061sKR/UX-Group-assignment?page-id=0%3A1&type=design&node-id=6-4&viewport=770%2C982%2C0.15&t=qhCQQt7FABDMi2gB-1&scaling=scale-down&starting-point-node-id=6%3A4&show-proto-sidebar=1&mode=design",
+    },
+    {
+      id: 3,
+      src: "/ambassador-landing.png",
+      alt: "Image of the Ambassadors page",
+      title: " OpenAQ Ambassadors",
+      description: "The OpenAQ Ambassadors Program landing page",
+      githubLink: "https://github.com/openaq/ambassadors.openaq.org",
+      deployLink: "https://ambassadors.openaq.org/",
+    },
+    {
+      id: 4,
       src: "/API-notes.png",
       alt: "API notes",
       title: "API notes",
@@ -67,7 +86,7 @@ const ProjectsSection = () => {
       deployLink: "",
     },
     {
-      id: 3,
+      id: 5,
       src: "/the-zoo.png",
       alt: "The Zoo",
       title: "The Zoo",
@@ -76,7 +95,7 @@ const ProjectsSection = () => {
       deployLink: "https://rebeckagothlin.github.io/react-thezoo/",
     },
     {
-      id: 4,
+      id: 6,
       src: "/tic-tac-toe.png",
       alt: "Tic Tac Toe",
       title: "Tic Tac Toe",
@@ -85,7 +104,7 @@ const ProjectsSection = () => {
       deployLink: "https://rebeckagothlin.github.io/vue-tic-tac-toe/",
     },
     {
-      id: 5,
+      id: 7,
       src: "/quiz.png",
       alt: "Quiz",
       title: "Quiz",
@@ -94,7 +113,7 @@ const ProjectsSection = () => {
       deployLink: "",
     },
     {
-      id: 6,
+      id: 8,
       src: "/webshop-js.png",
       alt: "Webshop",
       title: "Webshop",
@@ -104,7 +123,7 @@ const ProjectsSection = () => {
         "https://medieinstitutet.github.io/fed23d-js-grundkurs-webshop-RebeckaGothlin/",
     },
     {
-      id: 7,
+      id: 9,
       src: "/toughcookie.jpg",
       alt: "Tough Cookie",
       title: "Tough Cookie",
@@ -114,7 +133,7 @@ const ProjectsSection = () => {
       deployLink: "",
     },
     {
-      id: 8,
+      id: 10,
       src: "/af.png",
       alt: "Image of Arbetsportalen Start Page",
       title: "Arbetsportalen",
@@ -124,7 +143,7 @@ const ProjectsSection = () => {
       deployLink: "",
     },
     {
-      id: 9,
+      id: 11,
       src: "/wwf-prototype.png",
       alt: "Image of WWF prototype Wireframe Start Page",
       title: "WWF Prototype (Figma)",
@@ -175,7 +194,9 @@ const ProjectsSection = () => {
                 <h3 className="text-white text-lg font-semibold mb-2 font-poppins projects-heading">
                   {image.title}
                 </h3>
-                <p className="text-white text-sm mb-4 project-description">{image.description}</p>
+                <p className="text-white text-sm mb-4 project-description">
+                  {image.description}
+                </p>
                 <div className="flex justify-between gap-4">
                   <a
                     href={image.githubLink || "#"}
@@ -190,7 +211,7 @@ const ProjectsSection = () => {
                     GitHub
                   </a>
                   <a
-                    href={image.deployLink || "#"}
+                    href={image.id === 2 ? image.src : image.deployLink || "#"}
                     target="_blank"
                     rel="noopener noreferrer"
                     className={`shadow-md text-white bg-slateGray hover:shadow-none hover:bg-black transition-all duration-300 ease-in py-2 px-4 ${
