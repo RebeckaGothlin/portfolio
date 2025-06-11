@@ -43,7 +43,7 @@ const ServicesSection = () => {
               my true passion lies in graphic design. My education has equipped
               me with the skills to build functional, engaging digital
               experiences, but it’s through design that I feel I can make the
-              greatest impact—creating visually compelling, user-centered
+              greatest impact — creating visually compelling, user-centered
               solutions.
             </p>
             <p className="mt-4 text-sm md:text-base text-gray-800 leading-relaxed">
