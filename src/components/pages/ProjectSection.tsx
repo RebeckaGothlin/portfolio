@@ -137,7 +137,7 @@ const ProjectsSection = () => {
       src: "/toughcookie.jpg",
       alt: "Tough Cookie",
       title: "Tough Cookie",
-      description: "A design made using SCSS and html.",
+      description: "A design made using SCSS and HTML.",
       githubLink:
         "https://github.com/RebeckaGothlin/html-css-inlamning2-tough-cookie",
       deployLink: "",
