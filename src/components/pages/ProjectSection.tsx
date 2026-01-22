@@ -71,13 +71,23 @@ const ProjectsSection = () => {
       id: 3,
       src: "/ambassador-landing.png",
       alt: "Image of the Ambassadors page",
-      title: " OpenAQ Ambassadors",
+      title: "OpenAQ Ambassadors",
       description: "The OpenAQ Ambassadors Program landing page",
       githubLink: "https://github.com/openaq/ambassadors.openaq.org",
       deployLink: "https://ambassadors.openaq.org/",
     },
     {
       id: 4,
+      src: "/atelierpoppy.png",
+      alt: "Image of the Atelier Poppy page",
+      title: "Atelier Poppy",
+      description:
+        "An art portfolio made using React, showcasing drawings and other creations.",
+      githubLink: "https://github.com/RebeckaGothlin/atelier-poppy",
+      deployLink: "https://atelier-poppy.vercel.app/",
+    },
+    {
+      id: 5,
       src: "/API-notes.png",
       alt: "API notes",
       title: "API notes",
@@ -86,7 +96,7 @@ const ProjectsSection = () => {
       deployLink: "",
     },
     {
-      id: 5,
+      id: 6,
       src: "/the-zoo.png",
       alt: "The Zoo",
       title: "The Zoo",
@@ -95,7 +105,7 @@ const ProjectsSection = () => {
       deployLink: "https://rebeckagothlin.github.io/react-thezoo/",
     },
     {
-      id: 6,
+      id: 7,
       src: "/tic-tac-toe.png",
       alt: "Tic Tac Toe",
       title: "Tic Tac Toe",
@@ -104,7 +114,7 @@ const ProjectsSection = () => {
       deployLink: "https://rebeckagothlin.github.io/vue-tic-tac-toe/",
     },
     {
-      id: 7,
+      id: 8,
       src: "/quiz.png",
       alt: "Quiz",
       title: "Quiz",
@@ -113,7 +123,7 @@ const ProjectsSection = () => {
       deployLink: "",
     },
     {
-      id: 8,
+      id: 9,
       src: "/webshop-js.png",
       alt: "Webshop",
       title: "Webshop",
@@ -123,7 +133,7 @@ const ProjectsSection = () => {
         "https://medieinstitutet.github.io/fed23d-js-grundkurs-webshop-RebeckaGothlin/",
     },
     {
-      id: 9,
+      id: 10,
       src: "/toughcookie.jpg",
       alt: "Tough Cookie",
       title: "Tough Cookie",
@@ -133,7 +143,7 @@ const ProjectsSection = () => {
       deployLink: "",
     },
     {
-      id: 10,
+      id: 11,
       src: "/af.png",
       alt: "Image of Arbetsportalen Start Page",
       title: "Arbetsportalen",
@@ -143,7 +153,7 @@ const ProjectsSection = () => {
       deployLink: "",
     },
     {
-      id: 11,
+      id: 12,
       src: "/wwf-prototype.png",
       alt: "Image of WWF prototype Wireframe Start Page",
       title: "WWF Prototype (Figma)",
